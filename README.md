@@ -16,7 +16,7 @@ Timing benchmarks for classical and post-quantum cryptographic algorithms (key e
  
 Install with `pip` inside a virtual environment, **not** with the operating system's package manager. Python 3.9 or newer is needed.
  
-Linux / macOS:
+Linux:
  
 ```bash
 python3 -m venv venv
@@ -109,7 +109,6 @@ CPU, cores and memory:
  
 - Linux: `lscpu` and `free -h`
 - Windows: Task Manager > Performance, or `systeminfo`
-- macOS: About This Mac, or `sysctl -n machdep.cpu.brand_string`
 ## Step 6: Make the tables and plots
  
 ```bash
