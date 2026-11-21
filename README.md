@@ -127,13 +127,3 @@ The second argument is the label used in the plot titles. For each run this crea
 All times are in milliseconds. The tables use the median and interquartile range (IQR) of the runs **after dropping the warm-up** (run 0), computed with `statistics.quantiles(n=4)`.
  
 The `.md` files can be pasted into the report or turned into Word/LaTeX tables. The script prints a warning if any measurement does not have the number of runs it should (100, or 20 for RSA key generation). Fix that before trusting the numbers.
- 
-## Step 7: Repository and submission checklist
- 
-- [ ] Repository on GitHub or GitLab (add `setumartin` as a collaborator if private)
-- [ ] `my_project.py`, `analyse.py`, `requirements.txt`, `results/run-1/raw.csv` and `results/run-2/raw.csv` are in the repo
-- [ ] No changes to the repository after 23:59 on 7 December 2026
-- [ ] Report has Parts 1 to 6, with the repository link in Part 1
-- [ ] Report submitted on Blackboard under "Assessments" (comment fields left blank), and the submission receipt kept
-Never edit `raw.csv` by hand. Invented or edited data gets no marks.
- 
