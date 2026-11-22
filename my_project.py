@@ -18,8 +18,8 @@ from cryptography.hazmat.primitives.ciphers.aead import (
 )
 from cryptography.hazmat.primitives.serialization import Encoding, PublicFormat
 
-RUNS = 5  # run 0 is the warm-up
-RSA_KEYGEN_RUNS = 2  # RSA keygen is slow, so the brief uses 21 runs instead of 101
+RUNS = 101  # run 0 is the warm-up
+RSA_KEYGEN_RUNS = 21  # RSA keygen is slow, so the brief uses 21 runs instead of 101
 HEADER = ["part", "algorithm", "operation", "message_bytes", "run", "nanoseconds"]
 
 
