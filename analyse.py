@@ -8,7 +8,7 @@ Reads <run-directory>/raw.csv and writes everything into
 
 For each measurement (part, algorithm, operation, message_bytes) it drops
 run 0 (the warm-up), then reports the median and the interquartile range
-(Q3 - Q1, from statistics.quantiles with n=4) in milliseconds.
+(Q3 - Q1, from statistics.quantiles with n=4) in milliseconds
 """
 
 import csv
